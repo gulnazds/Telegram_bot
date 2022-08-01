@@ -1,9 +1,9 @@
 ### Build docker:
-(.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker build .
-Sending build context to Docker daemon  58.67MB
-Step 1/5 : FROM python:slim
-...
-Successfully built 6e81d0ed242a
+(.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker build . \n
+Sending build context to Docker daemon  58.67MB\n
+Step 1/5 : FROM python:slim\n
+...\n
+Successfully built 6e81d0ed242a\n
 
 
 ### List images:
