@@ -13,7 +13,7 @@ python       slim      014ac54db0a0   5 days ago       125MB<br />
 <br />
 
 ### Run
-(.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker run -d -p 80:80 <your image ID><br />
+(.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker run -d -p 80:80 <your_image_ID><br />
 
 ### Check and see container ID
 (.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker ps<br />
@@ -21,7 +21,7 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 **9464cc3c286f**   6e81d0ed242a   "/bin/sh -c 'python …"   26 seconds ago   Up 25 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   mystifying_ride<br />
 
 ### Check logs
-(.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker logs <your container ID><br />
+(.venv) (base) gulnaz@gulnaz-RedmiBook-Pro-15S:~/echo_bot$ sudo docker logs <your_container_ID<br />
 [08.01.2022 22:37:12 | INFO]: Bot: gulnaztest_bot [@gulnaaaaaz_bot]<br />
 [08.01.2022 22:37:12 | INFO]: Start polling.<br />
 [08.01.2022 22:38:08 | INFO]: user_name='Gu' user_id=455252960 received message: Гульназ Айратовна <br />
