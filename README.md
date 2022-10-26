@@ -1,5 +1,5 @@
 ### Build docker:
-sudo docker build . <br />
+sudo docker build  <br />
 
 
 ### List images:
