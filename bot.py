@@ -1,5 +1,5 @@
 import os
-import logging #cтандартные библиотеки импортируем первыми (те, что не нужно устанавливать)
+import logging 
 
 from aiogram import Bot, Dispatcher, executor, types
 
